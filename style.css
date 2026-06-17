@@ -51,7 +51,7 @@ html, body {
 .board {
   width: 100%;
   max-width: 900px;
-  height: 300px;
+  height: 320px;
   background: #ffffff;
   border-radius: 16px;
   position: relative;
@@ -68,12 +68,12 @@ html, body {
 }
 
 .line-red  { background: #e53935; opacity: 0.85; }
-.line-gray { background: #b0b8c8; opacity: 0.70; }
+.line-blue { background: #90a4d4; opacity: 0.60; }
 
-.line-top  { top: 30px; }
-.line-cap  { top: 80px; }
-.line-base { top: 200px; }
-.line-desc { top: 250px; }
+.line-top  { top: 40px; }
+.line-cap  { top: 100px; }
+.line-base { top: 220px; }
+.line-desc { top: 280px; }
 
 #canvas {
   position: absolute;
@@ -179,16 +179,6 @@ html, body {
   box-shadow: 0 0 10px rgba(229,57,53,0.4);
 }
 
-.char-btn.upper-btn {
-  font-size: 15px;
-}
-
-.char-btn.lower-btn {
-  font-size: 15px;
-  font-style: italic;
-}
-
-.char-btn.num-btn {
-  font-size: 11px;
-  padding: 4px 1px;
-}
+.char-btn.upper-btn { font-size: 15px; }
+.char-btn.lower-btn { font-size: 15px; }
+.char-btn.num-btn   { font-size: 11px; padding: 4px 1px; }
