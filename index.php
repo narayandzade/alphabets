@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alphabet Handwriting</title>
+<title>Alphabet Letter Trace</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
   <header class="app-header">
-    <div class="header-title">Alphabet Handwriting</div>
-    <div class="header-sub">Click any character to animate stroke order</div>
+    <div class="header-title">Alphabet Letter Trace</div>
+    <div class="header-sub">Click any character to animate proper stroke order</div>
   </header>
   <div class="board-wrapper">
     <div class="board">
